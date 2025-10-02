@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Image from "next/image";
+import hero from "@/assets/image.png";
 const page = () => {
   return (
     <div className="flex min-h-screen mt-6">
@@ -30,14 +31,9 @@ const page = () => {
         </div>
       </div>
       {/* Right Side: Mushroom Image */}
-      <div
-        className="flex-1 bg-cover bg-center mt-10"
-        style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80")'
-        }}
-      >
-      
+      <div className="flex-1 bg-cover bg-center mt-10" style={{
+        backgroundImage: `url(${hero.src})`
+      }}>
       </div>
     </div>
   )
