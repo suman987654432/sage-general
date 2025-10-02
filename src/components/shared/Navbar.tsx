@@ -49,11 +49,11 @@ const aboutItems = [
   },
   {
     title: "Editorial Processes",
-    href: "/about/editorial-processes"
+    href: "/editorial-processes"
   },
   {
     title: "Publication Ethics",
-    href: "/about/ethics"
+    href: "/ethics"
   }
 ]
 
@@ -173,7 +173,7 @@ const Navbar = () => {
 
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                    <Link href="#contact" className="text-gray-600 hover:text-primary-red transition-colors font-medium">
+                    <Link href="/contact" className="text-gray-600 hover:text-primary-red transition-colors font-medium">
                       Contact Us
                     </Link>
                   </NavigationMenuLink>
