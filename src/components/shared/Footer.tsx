@@ -9,7 +9,7 @@ const Footer = () => {
             Copyright © 2025{' '}
             <a 
               href="#" 
-              className="text-blue-600 underline"
+              className="text-primary-black-v3underline"
             >
               Association of Fungal Biologists
             </a>
@@ -19,7 +19,7 @@ const Footer = () => {
             Email:{' '}
             <a 
               href="mailto:mycologicalspectrum@gmail.com" 
-              className="text-blue-600 underline"
+              className="text-primary-black-v3 underline"
             >
               mycologicalspectrum@gmail.com
             </a>
