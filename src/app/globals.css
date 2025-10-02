@@ -9,6 +9,7 @@
   --color-primary-yellow: #DDAB21;
   --color-primary-black: #070707;
   --color-primary-black-v2: #1D1D1D;
+  --color-primary-black-v3: rgb(47, 79, 79);
 
   --breakpoint-xs: 27.5rem;
 }

@@ -13,7 +13,7 @@ const ParaSection = () => {
     return (
         <section className="bg-white py-12">
             {/* Text content with proper container */}
-            <div className="px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
+            <div className="px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto">
                 {/* ...existing para content... */}
                 <div className="mb-8">
                     <p className="text-gray-800 text-base md:text-lg leading-relaxed">

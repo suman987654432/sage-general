@@ -41,11 +41,11 @@ const aboutItems = [
  
   {
     title: "Journal Information",
-    href: "/about/journal"
+    href: "/journal-information"
   },
   {
     title: "Editorial Board",
-    href: "/about/editorial-board"
+    href: "/editorial-board"
   },
   {
     title: "Editorial Processes",
@@ -94,7 +94,7 @@ const Navbar = () => {
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                    <Link href="#home" className="text-primary-black hover:text-primary-red transition-colors font-medium">
+                    <Link href="/" className="text-primary-black hover:text-primary-red transition-colors font-medium">
                       Home
                     </Link>
                   </NavigationMenuLink>
