@@ -85,7 +85,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <h1 className="text-xl font-bold text-primary-black">SAGE University</h1>
-              <p className="text-xs text-gray-600">Research Repository</p>
+              <p className="text-xs text-gray-600">Sage Journal</p>
             </div>
           </div>
 

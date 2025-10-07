@@ -11,23 +11,14 @@ const page = () => {
       </h1>
         <hr className="w-16 my-5 border-t-2 border-gray-300" />
         <div className="text-lg text-[#808080]  max-w-lg">
-          <b>Editor-in-Chief, Mycological Spectrum</b><br />
-          Association of Fungal Biologists<br />
-          Department of Botany<br />
-          SIES College of Arts, Science & Commerce<br />
-          (Empowered Autonomous)<br />
-          Sion (West) Mumbai - 400022, India<br />
-          Email: <a href="mailto:mycologicalspectrum@gmail.com" className="text-primary-black-v3">mycologicalspectrum@gmail.com</a>
+         
+          <b>Dr. Lokesh Verma</b><br />
+          R&amp;D Cell, Sanjeev Agrawal Global Educational (SAGE) University<br />
+          <a href="mailto:lokesh.v@sageuniversity.edu.in" className="text-primary-black-v3">lokesh.v@sageuniversity.edu.in</a>
           <br /><br />
-          <b>Publisher</b><br />
-          <b>President, Association of Fungal Biologists</b><br />
-          Department of Botany<br />
-          SIES College of Arts, Science & Commerce<br />
-          (Empowered Autonomous)<br />
-          Sion (West) Mumbai - 400022, India<br />
-          Email: <a href="mailto:fungalbiologist@gmail.com" className="text-primary-black-v3">fungalbiologist@gmail.com</a><br />
-          Phone: +91 98205 10292<br />
-          Website: <a href="https://afbindia.com/" target="_blank" rel="noopener noreferrer" className="text-primary-black-v3">https://afbindia.com/</a>
+          <b>Dr. Sunil Atulkar</b><br />
+          R&amp;D Cell, Sanjeev Agrawal Global Educational (SAGE) University<br />
+          <a href="mailto:sunil.a@sageuniversity.edu.in" className="text-primary-black-v3">sunil.a@sageuniversity.edu.in</a>
         </div>
       </div>
       {/* Right Side: Mushroom Image */}
