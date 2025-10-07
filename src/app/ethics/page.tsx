@@ -36,7 +36,7 @@ const page = () => {
             >
               (link)
             </a>
-            ) (As per the Budapest Open Access Initiative and reaffirmed in 2012
+             (As per the Budapest Open Access Initiative and reaffirmed in 2012
             BOAI-10). However, any research or work published in the journal
             should be duly quoted/ acknowledged in subsequent publications.
           </li>
@@ -47,9 +47,9 @@ const page = () => {
             to following the ethics of publication at all stages of the review
             and publication process as per the Committee on Publication Ethics
             (COPE). The journal publication committee expects the authors,
-            reviewers, and editors to strictly follow the journal's ethical
+            reviewers, and editors to strictly follow the journals ethical
             policy. We also expect our reviewers and editors to follow the
-            journal's ethical policy in processing the received manuscripts.
+            journals ethical policy in processing the received manuscripts.
           </li>
           <li>
             <span className="font-semibold">Publication Ethics:</span>
@@ -76,7 +76,7 @@ const page = () => {
             <br />
             SAGE SPECTRUM: A Journal of Multidisciplinary Research suggests that
             all those submissions dealing with animal or human data must include
-            the details of the ethical committee approval in the "Methods"
+            the details of the ethical committee approval in the Methods
             section. The authors are requested to submit a valid clearance
             certificate from the regulatory ethical committee of the organisation
             where the work is accomplished.

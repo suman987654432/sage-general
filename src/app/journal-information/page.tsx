@@ -83,7 +83,7 @@ const JournalInformationPage = () => {
             </li>
             <li>
               Original Research Articles: The journal invites original research
-              papers that align with the journal's scope of multidisciplinary
+              papers that align with the journals scope of multidisciplinary
               research.
             </li>
             <li>
@@ -109,7 +109,7 @@ const JournalInformationPage = () => {
               Others
               <ul className="list-disc pl-6">
                 <li>Information Regarding Conference/ Workshop/ Symposium/ Seminars</li>
-                <li>Author's Instructions</li>
+                <li>Authors Instructions</li>
                 <li>About the Journal</li>
                 <li>About the SAGE Group</li>
                 <li>About SAGE University</li>
