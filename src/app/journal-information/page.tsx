@@ -4,138 +4,54 @@ const JournalInformationPage = () => {
   return (
     <div className="container mx-auto px-4 py-8 mt-16 flex flex-col items-center">
       <h1 className="text-5xl font-bold mb-6" style={{ color: "#808080" }}>
-        Journal Information
+        JOURNAL INFORMATION
       </h1>
       <div className="max-w-6xl w-full mt-6">
-        <p className="mb-6">
-          SAGE University, Bhopal, Madhya Pradesh, India, is committed to
-          excellence in academic research. The university motivates both its
-          students and faculty members to pursue innovation and novel findings
-          through their research. Hence, the university has decided to launch a
-          journal. The journal aims to publish reviews on current topics and
-          original research articles based on cutting-edge research by
-          universities, institutes, and industries. This is a peer-reviewed
-          academic journal that maintains its ethics in publication. The
-          editorial board of the journal encourages national and international
-          students and faculty members to submit their articles under the
-          categories mentioned below. The present-day research revolves around
-          interdisciplinary research fields, including science, computer
-          science, engineering, and policy-making.
+        <p className="mb-6 text-justify leading-relaxed">
+           <h2 className="font-semibold text-xl mt-8 mb-4">Journal Information</h2>
+          <span className="font-bold">....JOURNAL NAME..............</span> is an
+          advanced, peer-reviewed biannual journal dedicated to fostering
+          multidisciplinary research and innovation across the diverse domains of
+          engineering, management, sciences, and medical studies. Established in
+          2025, the journal aims to provide an integrative platform for scholars,
+          researchers, and professionals to exchange knowledge, explore emerging
+          frontiers, and contribute to the advancement of scientific understanding
+          and technological progress. Published in English,
+          <span className="font-bold">....JOURNAL NAME..............</span>
+          emphasizes the dissemination of high-quality, evidence-based research and
+          experimental studies, encouraging collaboration among disciplines to
+          address complex global challenges. With its non-annual (biannual)
+          frequency, the journal ensures a consistent flow of impactful research,
+          enabling the academic community to stay abreast of contemporary
+          developments and groundbreaking innovations.
         </p>
-        <h2 className="font-semibold mt-4 mb-2">Proposed Journal Names</h2>
-        <ul className="list-disc pl-6 mb-6">
-          <li>SAGE FRONTIERS: A Journal of Multidisciplinary Research</li>
-          <li>SAGE SPECTRUM: A Journal of Multidisciplinary Research</li>
-          <li>
-            SAGE FRONTIERS: An International Journal of Multidisciplinary
-            Research
-          </li>
-          <li>
-            SAGE SPECTRUM: An International Journal of Multidisciplinary
-            Research
-          </li>
-          <li>SAGE International Journal of Interdisciplinary Research</li>
-        </ul>
-        <h2 className="font-semibold mt-4 mb-2">Journal Details</h2>
-        <ul className="list-disc pl-6 mb-6">
-          <li>
-            PRGI Formalities: To be applied after finalisation of journal name
-          </li>
-          <li>ISSN: To be applied after receiving manuscripts</li>
-          <li>Frequency: e-journal</li>
-          <li>Open Access: Free accessible for readers</li>
-          <li>Review Process: Peer review by referees</li>
-          <li>Acceptance Time: 1-3 months, based on revision cycles</li>
-          <li>
-            Publication Process: Online First, immediately after acceptance
-          </li>
-          <li>Language: English</li>
-        </ul>
-        <h2 className="font-semibold mt-4 mb-2">
-          Why SAGE SPECTRUM- A Journal of Multidisciplinary Research?
-        </h2>
-        <p className="mb-6 list-disc pl-6 ">
-          <li>Open Access: Ensures your work is freely accessible</li>
-          <li> Fast Publication: Quick, quality-focused review process</li>
-          <li>
-            {" "}
-            Expert Editorial Board: Global experts ensure rigorous review
-          </li>
-          <li>
-            {" "}
-            Global Reach: Maximises your research’s visibility and impact
-          </li>
+
+        <h2 className="font-semibold text-xl mt-8 mb-4">Aims and scope</h2>
+        <p className="mb-6 text-justify leading-relaxed">
+          <span className="font-bold">....JOURNAL NAME..............</span> is a
+          prominent global platform dedicated to the publication of innovative
+          ideas and high-quality scholarly work. The primary objective of the
+          editorial team is to uphold rigorous standards in both theoretical
+          advancements and practical implementations. The journal welcomes
+          original research articles, comprehensive reviews, and well-prepared
+          technical notes for publication. Only original and previously
+          unpublished manuscripts are considered, ensuring the authenticity and
+          integrity of each contribution. To promote fairness and objectivity
+          during the review process, author identities are concealed from
+          reviewers. Periodically, the journal also publishes review papers and
+          special issues focused on specific research areas. Authors interested
+          in contributing such works are encouraged to contact the Editors.
+          Submission of any manuscript implies that it is not under consideration
+          by any other publication and that no part of it is copyrighted elsewhere.
+          Furthermore, authors bear the responsibility of securing necessary
+          permissions for any copyrighted material included in their submissions
+          prior to sending their work to
+          <span className="font-bold">....JOURNAL NAME..............</span>
         </p>
-        {/* <h2 className="font-semibold mt-4 mb-2">Scope</h2> */}
-        <div className="mb-6">
-          <h3 className="font-semibold mb-2"> Scope of Journal</h3>
-          <p className="mb-2">The journal accepts:</p>
-          <h1 className="font-semibold">Categories</h1>
-          <ul className="list-disc pl-6 mb-2">
-            <li>Editorial</li>
-            <li>
-              Review Articles: The journal encourages submitting critical and
-              extensive reviews on the current topics of research in any of the
-              area mentioned under Disciplines/ Themes. The review articles
-              should provide valuable insights, new information, views of the
-              authors, current knowledge, good compilation of relevant previous
-              data, and potential directions for future research.
-            </li>
-            <li>
-              Original Research Articles: The journal invites original research
-              papers that align with the journals scope of multidisciplinary
-              research.
-            </li>
-            <li>
-              Short Communications: Impactful brief reports related to broader
-              and long-term studies mentioning significant findings in brief. It
-              helps to circulate important results or novel methodologies until
-              the complete study is complete.
-            </li>
-            <li>
-              Case Reports/Case Studies/Case Series: Case studies related to
-              industry, management, law, etc. can be submitted highlighting
-              unique aspects, challenges and lessons learnt from real world
-              examples.
-            </li>
-            <li>
-              Book Reviews: The journal also publishes reviews of recently
-              published books related to the discipline/ theme mentioned below.
-              The book review should critically evaluate the content, relevance
-              and contribution of the desired publication in the respective
-              area/ field.
-            </li>
-            <li>
-              Others
-              <ul className="list-disc pl-6">
-                <li>Information Regarding Conference/ Workshop/ Symposium/ Seminars</li>
-                <li>Authors Instructions</li>
-                <li>About the Journal</li>
-                <li>About the SAGE Group</li>
-                <li>About SAGE University</li>
-              </ul>
-            </li>
-          </ul>
-          <h1 className="font-semibold">Disciplines/Themes</h1>
-          <ul className="list-disc pl-6">
-            <li>Medical Science (Nursing, Paramedical Sciences, Ayurveda and Pharmacy)</li>
-            <li>Sciences, Agriculture, and Engineering</li>
-            <li>Computer Science and Computer Applications</li>
-            <li>Humanities and Social Science</li>
-            <li>Management and Commerce</li>
-            <li>Law, Policy, and International Relations</li>
-            <li>Journalism and Mass Communication</li>
-            <li>Library Science</li>
-            <li>Environmental Studies</li>
-            <li>Architecture, Planning, and Design</li>
-            <li>Language and Literature</li>
-            <li>Performing Art</li>
-            <li>Education</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
 };
 
 export default JournalInformationPage;
+       

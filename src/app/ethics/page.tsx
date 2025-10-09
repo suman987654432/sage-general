@@ -6,167 +6,178 @@ const page = () => {
       <h1 className="text-5xl font-bold mb-6" style={{ color: "#808080" }}>
         PUBLICATION ETHICS
       </h1>
-      <div className="max-w-6xl w-full mt-6">
-        <h2 className="font-semibold mt-4 mb-2">Policies</h2>
-        <ul className="list-disc pl-6 mb-6">
-          <li>
-            <span className="font-semibold">Membership Fee:</span>
-            <br />
-            The membership fee of Rs. 500 (students), Rs. 800 (PhD/ Research
-            Scholars), and Rs. 1200 (Faculty Members), Rs. 2500 (Industry/
-            Company), $50 (International Faculty) is applicable at the time of
-            submitting a manuscript.
-          </li>
-          <li>
-            <span className="font-semibold">Processing Fee:</span>
-            <br />
-            The journal does not charge any processing fee.
-          </li>
-          <li>
-            <span className="font-semibold">Open Access Statement:</span>
-            <br />
-            SAGE SPECTRUM: A Journal of Multidisciplinary Research is an
-            open-access journal. The articles published in the journal can be
-            freely distributed as per the Creative Commons
-            Attribution-Non-Commercial-Share Alike 4.0 License{" "}
-            <a
-              href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              (link)
-            </a>
-             (As per the Budapest Open Access Initiative and reaffirmed in 2012
-            BOAI-10). However, any research or work published in the journal
-            should be duly quoted/ acknowledged in subsequent publications.
-          </li>
-          <li>
-            <span className="font-semibold">Editorial Policies:</span>
-            <br />
-            SAGE SPECTRUM: A Journal of Multidisciplinary Research is committed
-            to following the ethics of publication at all stages of the review
-            and publication process as per the Committee on Publication Ethics
-            (COPE). The journal publication committee expects the authors,
-            reviewers, and editors to strictly follow the journals ethical
-            policy. We also expect our reviewers and editors to follow the
-            journals ethical policy in processing the received manuscripts.
-          </li>
-          <li>
-            <span className="font-semibold">Publication Ethics:</span>
-            <br />
-            It is the responsibility of the journal to assure the readers that
-            they are reading an original article. Any article that is submitted
-            to the journal overlapping with already published or under review or
-            in press, or any other electronic form will be considered to be a
-            duplicate or redundant publication. It is a violation of the APA
-            Ethics Code{" "}
-            <a
-              href="https://www.apa.org/ethics/code"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              (link)
-            </a>
-            . Hence, such publications will be rejected or retracted (if
-            published) and the journal will send a notice/ information of the
-            same to the concerned authorities of the submitter’s affiliation.
-          </li>
-          <li>
-            <span className="font-semibold">Ethics Committee Approval:</span>
-            <br />
-            SAGE SPECTRUM: A Journal of Multidisciplinary Research suggests that
-            all those submissions dealing with animal or human data must include
-            the details of the ethical committee approval in the Methods
-            section. The authors are requested to submit a valid clearance
-            certificate from the regulatory ethical committee of the organisation
-            where the work is accomplished.
-          </li>
-          <li>
-            <span className="font-semibold">Consent Form:</span>
-            <br />
-            SAGE SPECTRUM: A Journal of Multidisciplinary Research suggests that
-            those studies that involve the participation of patients or healthy
-            persons to other subjects that are part of the experimental or survey
-            studies should take permission from the volunteer in the form of a
-            consent form. The details of the same should be mentioned in the
-            manuscripts.
-          </li>
-          <li>
-            <span className="font-semibold">Conflict of Interest:</span>
-            <br />
-            The authors are asked to reveal any financial interests/ funding of
-            the work. Also, the authors must state any conflicts between them.
-          </li>
-          <li>
-            <span className="font-semibold">Copyright Policy:</span>
-            <br />
-            By submitting the manuscript to the journal, authors agree to the
-            copyright policy of the journal, and the copyright to the above work
-            (including, without limitation, the right to publish the work in
-            whole, or part, in any form) is hereby transferred to the journal,
-            to ensure the widest dissemination and protection against infringement.
-            The journal proclaims no proprietary right other than copyright.
-            <br />
-            By submitting the manuscript to the journal, the authors also declare
-            that:
-            <ul className="list-disc pl-6">
-              <li>
-                The manuscript submitted is an original work and has neither been
-                published in any other peer-reviewed journal nor is it under
-                consideration for publication by any other journal. More so, the
-                manuscript does not contravene any existing copyright or any
-                other third-party rights.
-              </li>
-              <li>
-                The corresponding author(s) and/ or the main author take full
-                responsibility of any plagiarism or ethics issue, if arise at
-                some stage of the publication and even after the manuscript is
-                published.
-              </li>
-              <li>
-                I / we are the sole author(s) of the manuscript and maintain the
-                authority to enter into this agreement and the granting of rights
-                to the journal does not infringe any clause of this agreement.
-              </li>
-              <li>
-                The manuscript contains no such material that may be unlawful,
-                defamatory, or which would, if published, in any way whatsoever,
-                violate the terms and conditions as laid down in the agreement.
-              </li>
-              <li>
-                I/we have taken due care that the scientific knowledge and all
-                other statements contained in the manuscript conform to facts and
-                authentic formulae and will not, if followed precisely, be
-                detrimental to the user.
-              </li>
-              <li>
-                I/we permit the adaptation, preparation of derivative works, oral
-                presentation, or distribution, along with the commercial
-                application of the work.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <span className="font-semibold">Plagiarism Policy:</span>
-            <br />
-            All the manuscripts received by the editorial office will be checked
-            for their originality by checking the plagiarism. The journal policy
-            considers paraphrasing of text, concepts, and ideas as plagiarism.
-            Also, if any text, data, or images are used without due permission
-            from the publishers, it will be categorised under plagiarism. Usually
-            less than 10% plagiarism is accepted in the manuscript. The
-            manuscript will be rejected by the editorial board without undergoing
-            the review process and also report to the concerned authority of the
-            organization from where the manuscript is submitted.
-          </li>
-          <li>
-            <span className="font-semibold">Privacy Statement:</span>
-            <br />
-            The editorial board states that the names and email addresses mentioned
-            in the journal will be used only for the purposes of the journal and
-            will not be used for any other purpose.
-          </li>
-        </ul>
+      <div className="max-w-6xl w-full mt-6 text-justify leading-relaxed text-lg">
+        <h2 className="font-semibold mt-4 mb-2">
+          Publication Ethics as Editors&apos; Responsibilities:
+        </h2>
+        <p className="mb-6">
+          This journal is committed to upholding the integrity of the scientific
+          record. An editor should take reasonably responsive measures when
+          ethical complaints have been presented concerning a submitted manuscript
+          or published paper, in conjunction with the publisher (or society).
+          Such measures will generally include contacting the author of the
+          manuscript or paper and giving due consideration of the respective
+          complaint or claims made, but may also include further communications
+          to the relevant institutions and research bodies, and if the complaint
+          is upheld, the publication of a correction, retraction, expression of
+          concern, or other note, as may be relevant even if it is discovered
+          years after publication.
+        </p>
+        <p className="mb-6">
+          The editor of a peer-reviewed journal is responsible for deciding which
+          of the articles submitted to the journal should be published, often
+          working in conjunction with the relevant society (for society-owned or
+          sponsored journals). The validation of the work in question and its
+          importance to researchers and readers must always drive such decisions.
+          The editor may be guided by the policies of the journal&apos;s editorial
+          board and constrained by such legal requirements as shall then be in
+          force regarding libel, copyright infringement and plagiarism. The
+          editor may confer with other editors or reviewers (or society officers)
+          in making this decision. An editor should evaluate manuscripts for
+          their intellectual content without regard to race, gender, sexual
+          orientation, religious belief, ethnic origin, citizenship, or political
+          philosophy of the authors. The editor and any editorial staff must not
+          disclose any information about a submitted manuscript to anyone other
+          than the corresponding author, reviewers, potential reviewers, other
+          editorial advisers, and the publisher, as appropriate. Unpublished
+          materials disclosed in a submitted manuscript must not be used in an
+          editor&apos;s own research without the express written consent of the
+          author. Privileged information or ideas obtained through peer review
+          must be kept confidential and not used for personal advantage. Editors
+          should reuse themselves (i.e. should ask a co-editor, associate editor
+          or other member of the editorial board instead to review and consider)
+          from considering manuscripts in which they have conflicts of interest
+          resulting from competitive, collaborative, or other relationships or
+          connections with any of the authors, companies, or (possibly)
+          institutions connected to the papers. Editors should require all
+          contributors to disclose relevant competing interests and publish
+          corrections if competing interests are revealed after publication. If
+          needed, other appropriate action should be taken, such as the
+          publication of a retraction or expression of concern. It should be
+          ensured that the peer-review process for sponsored supplements is the
+          same as that used for the main journal. Items in sponsored supplements
+          should be accepted solely on the basis of academic merit and interest to
+          readers and not be influenced by commercial considerations. Non-peer
+          reviewed sections of their journal should be clearly identified. The
+          manuscript should not be submitted to more than one journal for
+          simultaneous consideration. The submitted work should be original and
+          should not have been published elsewhere in any form or language
+          (partially or in full), unless the new work concerns an expansion of
+          previous work. (Please provide transparency on the re-use of material to
+          avoid the concerns about text-recycling (&apos;self-plagiarism&apos;). A single
+          study should not be split up into several parts to increase the quantity
+          of submissions and submitted to various journals or to one journal over
+          time (i.e. &apos;salami-slicing/publishing&apos;). Concurrent or secondary
+          publication is sometimes justifiable, provided certain conditions are
+          met. Examples include: translations or a manuscript that is intended for
+          a different group of readers. Results should be presented clearly,
+          honestly, and without fabrication, falsification or inappropriate data
+          manipulation (including image based manipulation). Authors should
+          adhere to discipline-specific rules for acquiring, selecting and
+          processing data. No data, text, or theories by others are presented as
+          if they were the author&apos;s own (&apos;plagiarism&apos;). Proper acknowledgements
+          to other works must be given (this includes material that is closely
+          copied (near verbatim), summarized and/or paraphrased), quotation marks
+          (to indicate words taken from another source) are used for verbatim
+          copying of material, and permissions secured for material that is
+          copyrighted. Journal may use software to screen for plagiarism.
+        </p>
+        <p className="mb-6">
+          Authors should make sure they have permissions for the use of software,
+          questionnaires/(web) surveys and scales in their studies (if
+          appropriate). Authors should avoid untrue statements about an entity
+          (who can be an individual person or a company) or descriptions of their
+          behavior or actions that could potentially be seen as personal attacks
+          or allegations about that person. Research that may be misapplied to
+          pose a threat to public health or national security should be clearly
+          identified in the manuscript (e.g. dual use of research). Examples
+          include creation of harmful consequences of biological agents or toxins,
+          disruption of immunity of vaccines, unusual hazards in the use of
+          chemicals, weaponization of research/technology (amongst others).
+          Authors are strongly advised to ensure the author group, the
+          Corresponding Author, and the order of authors are all correct at
+          submission. Adding and/or deleting authors during the revision stages is
+          generally not permitted, but in some cases may be warranted. Reasons
+          for changes in authorship should be explained in detail. Please note
+          that changes to authorship cannot be made after acceptance of a
+          manuscript.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">
+          Publication Ethics as Article Reviewers
+        </h2>
+        <p className="mb-6">
+          Reviewers should assist in improving the quality of a submitted article
+          by reviewing the manuscript with care, consideration and objectivity, in
+          a timely manner. Reviewers should inform the journal editor of any
+          published or submitted content that is similar to the material under
+          review, or any suspected plagiarism. Reviewers should declare any
+          potential conflicts of interest relating to a specific article or
+          author. Reviewers should respect the confidentiality of any information
+          or material supplied during the review process. Providing a detailed,
+          constructive, and unbiased evaluation in a timely manner on the
+          scientific content of the work. Indicating whether the writing is
+          relevant, concise &amp; clear and evaluating the originality and scientific
+          accuracy. Maintaining the confidentiality of the complete review
+          process. Notifying the journal editor about any financial or personal
+          conflict of interest and declining to review the manuscript when a
+          possibility of such a conflict exists. Notifying the journal editor of
+          any ethical concerns in their evaluation of submitted manuscripts; such
+          as any violation of ethical treatment of animal or human subjects or
+          any considerable similarity between the previously published article and
+          any reviewed manuscript. (These guidelines are based on existing
+          Elsevier policies and COPE&apos;s Best Practice Guidelines for Journal
+          Editors.)
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Contribution to Editorial Decisions</h2>
+        <p className="mb-6">
+          Peer review assists the editor in making editorial decisions and through
+          the editorial communications with the author may also assist the author
+          in improving the paper. Peer review is an essential component of formal
+          scholarly communication, and lies at the heart of the scientific method.
+          IJDATICS shares the view of many that all scholars who wish to
+          contribute to publications have an obligation to do a fair share of
+          reviewing.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Promptness</h2>
+        <p className="mb-6">
+          Any selected referee who feels unqualified to review the research
+          reported in a manuscript or knows that its prompt review will be
+          impossible should notify the editor and excuse himself from the review
+          process.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Confidentiality</h2>
+        <p className="mb-6">
+          Any manuscripts received for review must be treated as confidential
+          documents. They must not be shown to or discussed with others except as
+          authorized by the editor.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Standards of Objectivity</h2>
+        <p className="mb-6">
+          Reviews should be conducted objectively. Personal criticism of the
+          author is inappropriate. Referees should express their views clearly
+          with supporting arguments.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Acknowledgement of Sources</h2>
+        <p className="mb-6">
+          Reviewers should identify relevant published work that has not been
+          cited by the authors. Any statement that an observation, derivation, or
+          argument had been previously reported should be accompanied by the
+          relevant citation. A reviewer should also call to the editor&apos;s attention
+          any substantial similarity or overlap between the manuscript under
+          consideration and any other published paper of which they have personal
+          knowledge.
+        </p>
+        <h2 className="font-semibold mt-4 mb-2">Disclosure and Conflict of Interest</h2>
+        <p className="mb-6">
+          Unpublished materials disclosed in a submitted manuscript must not be
+          used in a reviewer&apos;s own research without the express written consent
+          of the author. Privileged information or ideas obtained through peer
+          review must be kept confidential and not used for personal advantage.
+          Reviewers should not consider manuscripts in which they have conflicts
+          of interest resulting from competitive, collaborative, or other
+          relationships or connections with any of the authors, companies, or
+          institutions connected to the papers.
+        </p>
       </div>
     </div>
   );

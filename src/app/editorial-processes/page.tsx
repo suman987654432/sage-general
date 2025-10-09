@@ -7,60 +7,22 @@ const page = () => {
         EDITORIAL PROCESSES
       </h1>
       <div className="max-w-6xl w-full mt-6">
-        <p className="mb-6">
-          Mycological Spectrum is the official journal of{" "}
-          <a href="#" className="underline text-primary-black-v3">
-            Association of Fungal Biologists
-          </a>
-          , Mumbai, India. It is an international, online, peer-reviewed,
-          open-access journal dedicated to advancing the frontiers of fungal
-          research. The journal publishes high-quality studies on fungal
-          diversity, ecology, taxonomy, phylogeny, secondary metabolites,
-          applied mycology, and more. With a continuous publication model,
-          research is shared promptly throughout the year.
+        <p className="mb-6 text-justify leading-relaxed">
+          All submitted research articles are assessed by our Review board and
+          Editorial board members utilizing two fold dazzle associate evaluation
+          process so as to avoid plagiarism.{" "}
+          <span className="font-bold">....JOURNAL NAME..............</span> set
+          quality standards for the acceptance of appropriate and most effective
+          research articles.
         </p>
 
-        <p className="mb-6">
-          Publishing in Mycological Spectrum ensures that your research is
-          freely accessible to a global audience without paywalls or publication
-          fees. We are committed to removing financial barriers to scientific
-          dissemination, promoting inclusivity and greater impact. Our
-          streamlined peer-review process balances rigorous evaluation with
-          timely publication, allowing researchers to share their findings
-          efficiently. Led by{" "}
-          <a href="#" className="underline text-primary-black-v3">
-            Dr. Sanjay K. Singh
-          </a>{" "}
-          of NFCCI (ARI Pune), our{" "}
-          <a href="#" className="underline text-primary-black-v3">
-            editorial team
-          </a>{" "}
-          includes{" "}
-          <a href="#" className="underline text-primary-black-v3">
-            renowned mycologists
-          </a>{" "}
-          who ensure scientific integrity and quality. The journal also
-          maximizes the visibility of your work through active outreach and
-          indexing initiatives.
-        </p>
-
-        <p className="mb-6">
-          The journal aims to be a global platform for cutting-edge mycological
-          research, with a particular focus on underexplored fungal diversity.
-          As an open-access publication, Mycological Spectrum is committed to
-          fostering collaboration and accessibility across the international
-          scientific community.
-        </p>
-
-        <p>
-          Mycological Spectrum welcomes original research articles, reviews,
-          short communications, and letters that advance the understanding of
-          fungal biology. Topics include, but not limited to, fungal taxonomy,
-          phylogeny, ecology, biochemistry, biotechnology, industrial
-          applications, lichenology, and symbiotic associations. We especially
-          encourage submissions that report novel species, explore unique
-          habitats, or contribute to applied and interdisciplinary mycological
-          research.
+        <p className="mb-6 text-justify leading-relaxed">
+          Researchers should conduct their research from research proposal to
+          publication in line with best practices and codes of conduct of
+          relevant professional bodies and/or national and international
+          regulatory bodies. In rare cases it is possible that ethical issues or
+          misconduct could be encountered in your journal when research is
+          submitted for publication.
         </p>
       </div>
     </div>
@@ -68,3 +30,4 @@ const page = () => {
 };
 
 export default page;
+         
